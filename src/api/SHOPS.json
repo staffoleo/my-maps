@@ -1,0 +1,30 @@
+[
+   {
+        "id": 4,
+        "code": 10,
+        "description": "Starbucks London",        
+        "latitude": "51.510630",
+        "longitude": "-0.133212"        
+    },
+    {
+        "id": 5,
+        "code": 20,
+        "description": "Starbucks Bristol",        
+        "latitude": "51.455572",
+        "longitude": "-2.591786"        
+    },
+    {
+        "id": 6,
+        "code": 30,
+        "description": "Starbucks Zurich",        
+        "latitude": "47.376731",
+        "longitude": "8.540125"        
+    },
+    {
+        "id": 7,
+        "code": 40,
+        "description": "Starbucks NY",        
+        "latitude": "40.756538",
+        "longitude": "-73.978323"        
+    }
+]

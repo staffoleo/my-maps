@@ -1,3 +1,17 @@
-<h1>
-  {{title}}
-</h1>
+<section>
+  <div class="container">
+    <div class="row-section" *ngFor='let shop of shops'>
+            
+                <div class="col-lg-4 col-md-4 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 shop-map">                    
+                    <sebm-google-map [latitude]='shop.latitude' 
+                                     [longitude]='shop.longitude'                                     
+                                     [zoom]='12' 
+                                     [mapDraggable]='false'>
+                        <sebm-google-map-marker [latitude]="lat" [longitude]="lng"></sebm-google-map-marker>
+                    </sebm-google-map>
+                    <div>{{shop.description}}</div>
+                    <button type="button" class="btn btn-default" (click)="setShop(shop.id)">SELECT</button>
+                </div>                
+            </div>           
+  </div>
+</section>
